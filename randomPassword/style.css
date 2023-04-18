@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#count{
+    width: 300px;
+    margin: 10px auto;
+    background-color:yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+}
+#stre{
+    width: 5px;
+    background-color: gray;
+    border-radius: 2px;
+}

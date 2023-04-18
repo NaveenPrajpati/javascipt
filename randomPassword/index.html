@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random password generator</h1>
+        
+
+        <div id="count">
+            <input type="text" id="display" readonly>
+            <div class="check">
+                <input type="range" name="" id="range" max="15" min="5" value="10">
+                <input type="text" value="10" id="drange" readonly>
+                <!-- <label for="" id="drange">0</label> -->
+            </div>
+            <div class="check">
+                <label for="up">Upper case</label>
+                <input type="checkbox" name="" id="up">
+            </div>
+            <div class="check">
+                <label for="lo">Loower case</label>
+                <input type="checkbox" name="" id="lo">
+            </div>
+            <div class="check">
+                <label for="special">Special char</label>
+                <input type="checkbox" name="" id="special">
+            </div>
+            <div class="check">
+                <label for="num">Contain Numbers</label>
+                <input type="checkbox" name="" id="num">
+            </div>
+            <div class="check">
+                <label for="num">Strength</label>
+                <div id="stre"></div>
+            </div>
+        </div>
+        <button onclick="generate()">Generate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
