@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Info</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container" id="all">
+        <div class="subBody">
+            <div class="top">
+                <p>DevDetective</p>
+                <div class="alig " id="light" >
+                    <label>Light</label> <span class="material-symbols-outlined" id="light">
+                        light_mode
+                    </span>
+                </div>
+            </div>
+
+            <div class="search">
+                <div class="alig">
+                    <i><span class="material-symbols-outlined">
+                            search
+                        </span></i>
+                    <input type="text" id="find" placeholder="enter user name........" autofocus>
+                </div>
+                <button onclick="getInfo()">search</button>
+            </div>
+
+            <div class="detailBox">
+
+                <img src="" alt="image">
+
+                <div class="detailBoxLeft">
+                    <div class="namediv">
+                     <h3 id="name">name</h3>
+                     <p id="jdate">join date</p>
+                    </div>
+                    <a href="#" id="url"></a>
+                    <p id="bio">Lorem ipsum dolor sit amet.</p>
+                    <div class="follow">
+                        <div class="followDetail">
+                            <p>Repos</p>
+                            <h2 id="repos">00</h2>
+
+                        </div>
+                        <div class="followDetail">
+                            <p>Following</p>
+                            <h2 id="following">00</h2>
+                        </div>
+                        <div class="followDetail">
+                            <p>Followers</p>
+                            <h2 id="followers">00</h2>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="socialTag">
+                            <div class="subsocial">
+                            <i><span class="material-symbols-outlined">
+                                    location_on
+                                </span></i><span id="location">not available</span></div>
+                           <div> <i><span class="material-symbols-outlined">
+                                    alternate_email
+                                </span></i><span>not available</span></div></div>
+                        <div class="socialTag">
+                            <div class="subsocial">
+                            <i><span class="material-symbols-outlined">
+                                    location_on
+                                </span></i><span id="location">location</span></div>
+                           <div> <i><span class="material-symbols-outlined">
+                                    alternate_email
+                                </span></i><span>mail</span></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #191825;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.subBody{
+    margin: 50px auto;
+    width: 500px;
+    
+}
+.top{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items:center;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #2B3467;
+    border-radius: 5px;
+   
+}
+.detailBox{
+    padding: 10px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    background-color: #2B3467;
+    border-radius: 5px;
+    display: flex;
+}
+img{
+    padding: 0 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.detailBoxLeft{
+ width: 60%;
+ text-align: start;   
+}
+.namediv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.follow{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #191825;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#2B3467
+}
+button{
+    padding: 7px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+.alig{
+    display: flex;
+ align-items: center;
+}
+.socialTag{
+    display: flex;  
+}
+.subsocial{
+    margin-right: 50px;
+    
+}
+.light{
+    background-color: white;
+    color:black;
+}
