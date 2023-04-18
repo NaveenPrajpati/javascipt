@@ -1,0 +1,2 @@
+# javascipt
+all javaScripte code 
