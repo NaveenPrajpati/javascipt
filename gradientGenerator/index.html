@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+        <div class="gradient">
+
+        </div>
+        <div class="middle">
+            <div class="Type">
+                <label for="type">Type</label><br>
+                <select name="type" id="type">
+                <option value="linear-gradient">Linear Gradients</option>
+                <option value="radial-gradient">Radial Gradients</option>
+                <option value="conic-gradient">Conic Gradients</option>
+                
+            </select>
+            </div>
+            <div class="direction">
+                <label for="direction">Direction</label><br>
+                <select  id="direction">
+                <option value="to top">to Top</option>
+                <option value="to bottom">to Bottom</option>
+                <option value="to left">to Left</option>
+                <option value="to right">to Right</option>
+                <option value="angle">angle</option>
+            </select>
+            </div>
+            <div class="shape" >
+                <label for="shape">Shape</label><br>
+                <select  id="shape">
+                <option value="circle">Circle</option>
+                <option value="ellipse">ellipse</option>
+                <option value="farthest-side">farthest-side</option>
+                
+            </select>
+            </div>
+
+            <div class="colors">
+                <p>Colors</p>
+                <input type="color" value="#ffffff" class="col" >
+                <input type="color" value="#000" class="col" >
+            </div>
+        </div>
+<div class="angle">
+    <label for="range">angle in dergee</label><br>
+    <input type="range" value="90" id="range" min="0" max="360">
+</div>
+        <div class="text">
+            <textarea name="" id="" cols="30" rows="5" disabled></textarea>
+        </div>
+        <div class="buttons">
+            <button id="refresh">Refresh</button>
+            <button id="copy">Copy</button>
+        </div>
+    </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+
+</html>
